@@ -3,8 +3,7 @@ body{
 	padding: 0;
 	background: #2E3047;
 	color: #3BBA9C;
-	font-family: 'Poppins', sans-serif;
-	
+	font-family: 'Poppins', sans-serif;	
 }
 
 header{
@@ -22,6 +21,7 @@ header{
     position: fixed;
     top: 0;
 }
+
 .cover{
 	background: #252739;
     position: absolute;
@@ -70,8 +70,6 @@ header{
 	background-color: #707793;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px;
-	
-
 }
 
 .dropdown-content a{
@@ -79,7 +77,6 @@ header{
 	padding: 12px 16px;
 	text-decoration: none;
 	display: block;
-
 }
 
 .dropdown-content a:hover {
@@ -91,8 +88,6 @@ header{
 .dropdown:hover .dropbtn{
 	background: green;
 }
-
-
 .content{
 	border: 0px solid;
     border-left: 12px solid rgb(178 133 94);
@@ -121,7 +116,6 @@ h1{
     top: 345px;
     text-align: center; 
 }
-
 .pic{
 	padding: 0;
     position: absolute;
@@ -129,7 +123,6 @@ h1{
     bottom: 79%;
     left: 50%;
 }
-
 .pic img{    
 	margin: 0;
     padding: 0;
@@ -144,7 +137,6 @@ h1{
 	font-size: 19px;
 }
 .content-intro{
-	
 	position: relative;
 	font-family: 'Poppins', sans-serif;
 
@@ -153,17 +145,13 @@ h1{
 	margin-left: 40px;
     width: 40%;	
 }
-
 .content-project{
 	position: relative;
 	top: 50px;
-
 }
-
 .content-project label, p, img{
 	margin-left: 40px;
 }
-
 .content-project label, p, img{
 	margin-left: 40px;
 }

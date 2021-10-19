@@ -1,22 +1,189 @@
+<style type="text/css">
+body{
+  margin: 0;
+  padding: 0;
+  background: #2E3047;
+  color: #3BBA9C;
+  font-family: 'Poppins', sans-serif; 
+}
+
+header{
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+   font-family: 'Poppins', sans-serif;
+  color: #fff;
+  letter-spacing: 5px;
+  border-bottom: 6px solid #707793;
+  margin: 0;
+    background: #3C3B58;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.cover{
+  background: #252739;
+    position: absolute;
+    border: 0px solid;
+    height: 388px;
+    width: 1280px;
+    top: 228px;
+    left: 0px;
+}
+
+.dropbtn{
+  position: absolute;
+  top: 1px;
+  background-color: #3c3b58;
+  color: white;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+
+}
+.dropdown #gm{
+  height: 30px;
+    width: 75px;
+}
+
+
+.dropdown #fb{
+  height: 29px;
+    width: 55px;
+}
+
+.dropdown #git{
+  height: 30px;
+    width: 35px;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #707793;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px;
+}
+
+.dropdown-content a{
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #3cae96;
+}
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+.dropdown:hover .dropbtn{
+  background: green;
+}
+.content{
+  border: 0px solid;
+    border-left: 12px solid rgb(178 133 94);
+    border-radius: 20px 20px 20px 20px;
+    position: relative;
+    background: #43455C;
+    padding: 0;
+    margin: 0;
+    top: 80px;
+    width: 770px;
+    height: 500px;
+    left: 245px;
+    box-shadow: 0px 20px 20px 7px #00000078;
+}
+
+h1{
+  width: 45%;
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 4px;
+    font-size: 40px;
+    margin: 10px 38px;
+    color: #fff;
+    left: 337px;
+    top: 345px;
+    text-align: center; 
+}
+.pic{
+  padding: 0;
+    position: absolute;
+    margin: 0;
+    bottom: 79%;
+    left: 50%;
+}
+.pic img{    
+  margin: 0;
+    padding: 0;
+    position: relative;
+    height: 325px;
+    width: 320px;
+    left: 3%;
+    top: 230px;
+}
+
+.content-intro p{
+  font-size: 19px;
+}
+.content-intro{
+  position: relative;
+  font-family: 'Poppins', sans-serif;
+
+}
+.content-intro p, label{
+  margin-left: 40px;
+    width: 40%; 
+}
+.content-project{
+  position: relative;
+  top: 50px;
+}
+.content-project label, p, img{
+  margin-left: 40px;
+}
+.content-project label, p, img{
+  margin-left: 40px;
+}
+.content-project img{
+  margin-left: 40px;
+  height: 71px;
+    width: 235px;
+}
+</style>
+
+
+
+
 <!DOCTYPE html>
 <html>
 <head>
   <title>Portfolio</title>
 </head>
-<link rel="stylesheet" type="text/css" href="src/styles.css">
+<link rel="stylesheet" type="text/css" href="app.component.css">
 <body>
 <header>PORTFOLIO</header>
 <div class="dropdown">
   <button class="dropbtn">Contact</button>
-  <div class="dropdown-content"><a href="https://www.facebook.com/zhojin.kinye/"><img src="assets/img/fb.png" id="fb"></a>
-  <a href="https://github.com/LagunaKc22"><img src="assets/img/s.png" id="git"></a>
-  <a href="https://mail.google.com/mail/u/0/#inbox"><img src="assets/img/gmail.png" id="gm"></a>   
+  <div class="dropdown-content"><a href="https://www.facebook.com/zhojin.kinye/"><img src="fb.png" id="fb"></a>
+  <a href="https://github.com/LagunaKc22"><img src="s.png" id="git"></a>
+  <a href="https://mail.google.com/mail/u/0/#inbox"><img src="gmail.png" id="gm"></a>   
   </div>
 </div>
 
 <div class="cover"> </div> 
 <div class="content">
-  <div class="pic"><img src="assets/img/db33.png"></div>
+  <div class="pic"><img src="db33.png"></div>
 
 
 <div class="content-intro">
@@ -26,7 +193,7 @@
   
   <div class="content-project">
     <label>PROJECT</label>
-    <p>You can view my project in: <a href=" https://github.com/LagunaKc22/Event_Driven_Act.git"><img src="assets/img/github.png" id="logo"></a></p>
+    <p>You can view my project in: <a href=" https://github.com/LagunaKc22/Event_Driven_Act.git"><img src="github.png" id="logo"></a></p>
   </div>  
 </div>
 </div>
